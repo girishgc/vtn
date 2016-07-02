@@ -83,7 +83,7 @@ public class InstanceManager extends AbstractProvider implements HostProvider,
 
     protected final Logger log = getLogger(getClass());
 
-    private static final Ip4Address DEFAULT_DNS = Ip4Address.valueOf("8.8.8.8");
+    private static final Ip4Address DEFAULT_DNS = Ip4Address.valueOf("172.24.100.50");
     private static final int DHCP_INFINITE_LEASE = -1;
 
     @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
